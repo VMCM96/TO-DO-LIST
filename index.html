@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List</title>
+
+<!--Css-->
+    <link rel="stylesheet" href="style.css">
+
+<!--Link Icons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <div class="container">
+        <div class="class input-field">
+            <textarea placeholder="Escribe tu tarea pendiente"></textarea>
+            <i class="uil uil-newspaper note-icon"></i>
+        </div>
+
+        <ul class="todoList"></ul>
+
+        <div class="pending-tasks">
+            <span>Tienes <span  class="pending-num">0 </span> tareas pendientes.</span>
+            <button class="clear-button">Clear All</button>
+        </div>
+    </div>
+
+    <!--JavaScript-->
+    <script src="app.js"></script>
+</body>
+</html>
